@@ -20,6 +20,16 @@
       <ul id="tasks">
       </ul>
     </div>
+   
+    <form id="delete-task-form" action="#" method="delete">
+      <label for="delete-task-description">Task description:</label>
+      <input type="text" id="delete-task-description" name="delete-task-description" placeholder="description">
+      <input type="submit" value="Delete Task">
+    </form>
+    
+<!-- <% if flash[:notice] %>
+<%= flash[:notice]%>
+<%end%>  -->
 
     <script src="./src/index.js"></script>
   </div>
